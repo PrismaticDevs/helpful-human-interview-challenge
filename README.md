@@ -20,20 +20,22 @@ This app is to meant demonstrate some of my full stack web development skills to
 
 I interviewed with the company on 5/4, began building the application on 5/5, and then finished the application on 5/10. Each day I would spend roughly 4-5 hours on developing the code and testing it.
 
+The initial application that I built did not include some elements depicted in the png images for reference, such as a search bar and the company logo. Still I did not have any application that would be able to display the .sketch file that is included in the repository for this challenge so hopefully the design I chose to use is satisfactory.
+
 ## Url
 
 <a href="">deployed application</a>
 
 ## Usage
 
-Browse the app to view color swatches. There are 100 color swatches so the swatches are paginated to display 20 at a time. The swatches are grouped by into reds, yellows, greens, blues, and purples. Use the button to generate a random color swatch.
+Browse the app to view color swatches. There are 100 color swatches so the swatches are paginated to display 20 at a time. The swatches are grouped by into reds, yellows, greens, blues, and purples. Use the button to generate a random color swatch. You may also use the search bar to search for the name of the color that you are looking for. Click the button at the bottom of the app to generate a random color swatch.
 
 ## Goals
 
 <ul>
     <h3>Core</h3>
     <li>The app is styled with the required Google font in the App.css for the body of the SPA.</li>
-    <li>The app is styled using Bootstrap.</li>
+    <li>The app is styled using custom CSS.</li>
     <li>The app includes a magical donger.</li>
     <li>The database contains 100 colors.</li>
     <li>The colors are paginated to show 20 at a time and are grouped by color.</li>
