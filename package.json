@@ -1,15 +1,18 @@
 {
-  "name": "helpful-human-interview-challenge",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "create-react-app": "^5.0.1"
-  }
+    "name": "helpful-human-interview-challenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "concurrently \"cd server && node server.js\" \"cd client and npm start\"",
+        "dev": "concurrently \"cd server && nodemon server.js\" \"cd client && npm start\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^7.1.0",
+        "create-react-app": "^5.0.1"
+    }
 }
