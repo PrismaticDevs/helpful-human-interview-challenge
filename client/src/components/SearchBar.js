@@ -24,8 +24,6 @@ const SearchBar = () => {
               return "";
             } else if (item.color.toLowerCase().includes(searchTerm)) {
               return item;
-            } else {
-              return item;
             }
           })
           .map((color, index) => {
@@ -38,7 +36,7 @@ const SearchBar = () => {
                   boxShadow: ".25em .25em .25em .25em rgba(0,0,0,.5)",
                   margin: "1em",
                 }}
-                key={color}
+                key={color.id}
               >
                 <div
                   key={index}
