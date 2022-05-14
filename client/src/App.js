@@ -3,11 +3,13 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Colors from "./components/Colors";
 import { colors } from "./components/Data";
+import { useState } from "react";
 
 const App = () => {
+  const [searchTerm, setSearchTerm] = useState("");
   return (
     <>
-      <Header />
+      <Header term={searchTerm} />
       <div style={{ display: "flex", flexDirection: "row" }}>
         <Sidebar />
         <div style={{ marginLeft: "5%" }}>
