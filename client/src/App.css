@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     background: white;
     width: 5%;
-    height: 90vh;
+    height: fit-content;
 }
 
 .sidebar a {
