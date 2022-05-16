@@ -95,6 +95,87 @@ const swatches = [
     hex: "#9B1003",
     color: "Lipstick",
   },
+  // Orange
+  {
+    hex: "#ED7014",
+    color: "Orange",
+  },
+  {
+    hex: "#FA8128",
+    color: "Tangerine",
+  },
+  {
+    hex: "#FCAE1E",
+    color: "Marigold",
+  },
+  {
+    hex: "#B56727",
+    color: "Cider",
+  },
+  {
+    hex: "#8D4004",
+    color: "Rust",
+  },
+  {
+    hex: " #BE5504",
+    color: "Ginger",
+  },
+  {
+    hex: "#FC6A03",
+    color: "Tiger",
+  },
+  {
+    hex: "#DD571C",
+    color: "Fire",
+  },
+  {
+    hex: "#B2560D",
+    color: "Bronze",
+  },
+  {
+    hex: "#FDA172",
+    color: "Cantaloupe",
+  },
+  {
+    hex: "#ED820E",
+    color: "Apricot",
+  },
+  {
+    hex: "#80400B",
+    color: "Clay",
+  },
+  {
+    hex: "#EC9706",
+    color: "Honey",
+  },
+  {
+    hex: "#ED7117",
+    color: "Carrot",
+  },
+  {
+    hex: "#C95B0C",
+    color: "Squash",
+  },
+  {
+    hex: "#7A3803",
+    color: "Spice",
+  },
+  {
+    hex: "#D16002",
+    color: "Marmalade",
+  },
+  {
+    hex: "#893101",
+    color: "Amber",
+  },
+  {
+    hex: "#D67229",
+    color: "Sandstone",
+  },
+  {
+    hex: "#CC5801",
+    color: "Yam",
+  },
   // Yellow
   {
     hex: "#E6DBAC",
@@ -418,6 +499,168 @@ const swatches = [
   {
     hex: "#2C041C",
     color: "Wine",
+  },
+  // Brown
+  {
+    hex: "#231709",
+    color: "Brown Oil",
+  },
+  {
+    hex: "#4B371C",
+    color: "Roasted Coffee",
+  },
+  {
+    hex: "#3C280D",
+    color: "Mocha",
+  },
+  {
+    hex: "#795C34",
+    color: "Peanut Brown",
+  },
+  {
+    hex: "#362511",
+    color: "Carob",
+  },
+  {
+    hex: "#371D10",
+    color: "Hickory",
+  },
+  {
+    hex: "#3F301D",
+    color: "Wood",
+  },
+  {
+    hex: "4A2511",
+    color: "Pecan",
+  },
+  {
+    hex: "#432616",
+    color: "Walnut",
+  },
+  {
+    hex: "#65350F",
+    color: "Caramel",
+  },
+  {
+    hex: "#5E2C04",
+    color: "Gingerbread",
+  },
+  {
+    hex: "#481F01",
+    color: "Syrup",
+  },
+  {
+    hex: "#2E1503",
+    color: "Dark Chocolate",
+  },
+  {
+    hex: "#9A7B4F",
+    color: "Tortilla",
+  },
+  {
+    hex: "#352315",
+    color: "Umber",
+  },
+  {
+    hex: "#80471C",
+    color: "Tawny",
+  },
+  {
+    hex: "#3B1E08",
+    color: "Brunette",
+  },
+  {
+    hex: "#652A0E",
+    color: "Cinnamon Brown",
+  },
+  {
+    hex: "#532915",
+    color: "Penny",
+  },
+  {
+    hex: "#4A3728",
+    color: "Cedar Brown",
+  },
+  // Gray
+  {
+    hex: "#808080",
+    color: "Gray",
+  },
+  {
+    hex: "#373737",
+    color: "Shadow",
+  },
+  {
+    hex: "#594D5B",
+    color: "Graphite",
+  },
+  {
+    hex: "#322D31",
+    color: "Iron",
+  },
+  {
+    hex: "#696880",
+    color: "Pewter",
+  },
+  {
+    hex: "#C5C6D0",
+    color: "Cloud",
+  },
+  {
+    hex: "#ADADC9",
+    color: "Silver",
+  },
+  {
+    hex: "#59515E",
+    color: "Smoke",
+  },
+  {
+    hex: "#3E3D53",
+    color: "Slate",
+  },
+  {
+    hex: "#41424C",
+    color: "Anchor",
+  },
+  {
+    hex: "#564C4D",
+    color: "Ash",
+  },
+  {
+    hex: "#4D4C5C",
+    color: "Porpoise",
+  },
+  {
+    hex: "#7C6E7F",
+    color: "Dove",
+  },
+  {
+    hex: "#655967",
+    color: "Fog",
+  },
+  {
+    hex: "#7F7D9C",
+    color: "Flint",
+  },
+  {
+    hex: "#232023",
+    color: "Charcoal Gray",
+  },
+  {
+    hex: "#333333",
+    color: "Pebble",
+  },
+  {
+    hex: "#3F3F4E",
+    color: "Lead",
+  },
+  {
+    hex: "#9897A9",
+    color: "Coin",
+  },
+  {
+    hex: "#787276",
+    color: "Fossil",
   },
 ];
 
