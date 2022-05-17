@@ -1,7 +1,6 @@
 import React from "react";
 import { useQuery } from "@apollo/client";
 import { GET_COLORS } from "../utils/queries";
-import { colors } from "./Data";
 
 const Sidebar = () => {
   const { data, loading } = useQuery(GET_COLORS);
@@ -29,13 +28,6 @@ const Sidebar = () => {
             size: "1.5em",
             padding: ".25em",
           }}
-          // onClick={() => {
-          //   red = [];
-          //   for (let i = 0; i < 20; i++) {
-          //     red.push(colors[i]);
-          //   }
-          //   console.log(red);
-          // }}
         >
           Red
         </button>
