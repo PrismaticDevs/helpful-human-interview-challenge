@@ -1,12 +1,22 @@
 import React from "react";
+import { useQuery } from "@apollo/client";
+import { GET_COLORS } from "../utils/queries";
 import { colors } from "./Data";
 
 const Sidebar = () => {
-  let red = [];
-  for (let i = 0; i < 20; i++) {
-    red.push(colors[i]);
-  }
-  return (
+  const { data, loading } = useQuery(GET_COLORS);
+  const colorData = data?.colors || {};
+  console.log(colorData);
+  return loading ? (
+    <div className="container">
+      <div className="bouncer">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  ) : (
     <>
       <section className="sidebar">
         <button
@@ -19,13 +29,13 @@ const Sidebar = () => {
             size: "1.5em",
             padding: ".25em",
           }}
-          onClick={() => {
-            red = [];
-            for (let i = 0; i < 20; i++) {
-              red.push(colors[i]);
-            }
-            console.log(red);
-          }}
+          // onClick={() => {
+          //   red = [];
+          //   for (let i = 0; i < 20; i++) {
+          //     red.push(colors[i]);
+          //   }
+          //   console.log(red);
+          // }}
         >
           Red
         </button>
@@ -39,9 +49,9 @@ const Sidebar = () => {
             size: "1.5em",
             padding: ".25em",
           }}
-          onClick={() => {
-            red = [];
-          }}
+          // onClick={() => {
+          //   red = [];
+          // }}
         >
           Orange
         </button>
@@ -126,7 +136,7 @@ const Sidebar = () => {
           Gray
         </button>
       </section>
-      <ul style={{ listStyleType: "none", display: "flex", flexWrap: "wrap" }}>
+      {/* <ul style={{ listStyleType: "none", display: "flex", flexWrap: "wrap" }}>
         {red.map((color, index) => {
           return (
             <div
@@ -159,7 +169,7 @@ const Sidebar = () => {
             </div>
           );
         })}
-      </ul>
+      </ul> */}
     </>
   );
 };
